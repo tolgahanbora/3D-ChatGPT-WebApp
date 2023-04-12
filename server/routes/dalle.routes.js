@@ -10,7 +10,7 @@ const router = express.Router()
 
 
 const config = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: process.env.OPENAI_API_KEY2
 })
 
 const openai = new OpenAIApi(config)
